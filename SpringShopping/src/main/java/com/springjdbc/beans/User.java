@@ -2,7 +2,7 @@ package com.springjdbc.beans;
 
 public class User {
 
-	String unserName;
+	String userName;
 	String password;
 	String name;
 	String email;
@@ -13,18 +13,18 @@ public class User {
 
 	public User(String unserName, String password, String name, String email) {
 		super();
-		this.unserName = unserName;
+		this.userName = unserName;
 		this.password = password;
 		this.name = name;
 		this.email = email;
 	}
 
 	public String getUnserName() {
-		return unserName;
+		return userName;
 	}
 
 	public void setUnserName(String unserName) {
-		this.unserName = unserName;
+		this.userName = unserName;
 	}
 
 	public String getPassword() {
@@ -53,7 +53,7 @@ public class User {
 
 	@Override
 	public String toString() {
-		return "User [unserName=" + unserName + ", password=" + password + ", name=" + name + ", email=" + email + "]";
+		return "User [unserName=" + userName + ", password=" + password + ", name=" + name + ", email=" + email + "]";
 	}
 
 }
