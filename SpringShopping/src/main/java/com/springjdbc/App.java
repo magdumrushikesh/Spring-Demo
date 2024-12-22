@@ -1,4 +1,4 @@
-package com.acts.SpringShopping;
+package com.springjdbc;
 
 /**
  * Hello world!
